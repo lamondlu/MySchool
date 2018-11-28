@@ -336,3 +336,11 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+/MySchool.LearningPlan/.vs/MySchool.LearningPlan/v15/.suo
+/MySchool.LearningPlan/.vs/MySchool.LearningPlan/v15/Server/sqlite3/storage.ide-shm
+/MySchool.LearningPlan/.vs/MySchool.LearningPlan/v15/Server/sqlite3/storage.ide-wal
+/MySchool.LearningPlan/MySchool.LearningPlan.Domain/obj/Debug/netcoreapp2.1/MySchool.LearningPlan.Domain.csproj.CoreCompileInputs.cache
+/MySchool.LearningPlan/MySchool.LearningPlan.Domain/obj/Debug/netcoreapp2.1/MySchool.LearningPlan.Domain.csprojAssemblyReference.cache
+/MySchool.LearningPlan/MySchool.LearningPlan.Domain/obj/MySchool.LearningPlan.Domain.csproj.nuget.cache
+/MySchool.LearningPlan/MySchool.LearningPlan.Domain/obj/MySchool.LearningPlan.Domain.csproj.nuget.g.props
+/MySchool.LearningPlan/MySchool.LearningPlan.Domain/obj/project.assets.json
