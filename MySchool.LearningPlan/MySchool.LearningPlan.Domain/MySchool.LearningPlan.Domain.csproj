@@ -8,4 +8,9 @@
     <ProjectReference Include="..\..\MySchool.Domain.Core\MySchool.Domain.Core\MySchool.Domain.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="EventHandlers\" />
+  </ItemGroup>
+
 </Project>

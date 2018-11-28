@@ -6,7 +6,7 @@ namespace MySchool.LearningPlan.Domain.Entities
 {
     public class Theme : LearningEntity
     {
-        public Subject(Guid learningEntityId,
+        public Theme(Guid learningEntityId,
             int? nzqfYear,
             int calendarYear,
             string code,
