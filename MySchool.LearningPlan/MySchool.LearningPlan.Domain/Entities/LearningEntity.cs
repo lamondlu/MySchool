@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace MySchool.LearningPlan.Domain.Entities
 {
@@ -28,6 +29,18 @@ namespace MySchool.LearningPlan.Domain.Entities
         public void AssignTo(StudentYearLearningPlan studentYearLearningPlan)
         {
             if (studentYearLearningPlan.CalendarYear != CalenderYear)
+            {
+
+            }
+            else if (this is Subject && studentYearLearningPlan.Subjects.Any(p => p.LearningEntityId == this.LearningEntityId))
+            {
+
+            }
+            else if (this is Activity && studentYearLearningPlan.Activities.Any(p => p.LearningEntityId == this.LearningEntityId))
+            {
+
+            }
+            else if (this is Theme && studentYearLearningPlan.Themes.Any(p => p.LearningEntityId == this.LearningEntityId))
             {
 
             }
