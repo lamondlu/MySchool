@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySchool.LearningPlan.Domain", "MySchool.LearningPlan.Domain\MySchool.LearningPlan.Domain.csproj", "{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySchool.LearningPlan.Domain", "MySchool.LearningPlan.Domain\MySchool.LearningPlan.Domain.csproj", "{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySchool.Domain.Core", "..\MySchool.Domain.Core\MySchool.Domain.Core\MySchool.Domain.Core.csproj", "{CFADA5F7-82CE-4E46-BC81-332D66EF647C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C4E8E0FA-DEB5-407F-A034-6A11D58E57BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6E8B1F23-656B-4980-809F-F17BA7649A61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D7DD9E6C-7856-48AE-829D-4EE50E9CD36B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0FF7353F-E645-4B40-A199-CA4A0E3D817E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,17 @@ Global
 		{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFADA5F7-82CE-4E46-BC81-332D66EF647C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFADA5F7-82CE-4E46-BC81-332D66EF647C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFADA5F7-82CE-4E46-BC81-332D66EF647C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFADA5F7-82CE-4E46-BC81-332D66EF647C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BB394D2-ECAA-4047-9F58-D3C7DACC67BE} = {6E8B1F23-656B-4980-809F-F17BA7649A61}
+		{CFADA5F7-82CE-4E46-BC81-332D66EF647C} = {C4E8E0FA-DEB5-407F-A034-6A11D58E57BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C52F091-004A-44E2-AD7F-F9FDAFD73FBA}
